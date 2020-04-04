@@ -8,11 +8,11 @@ channels:
     - soumith
 dependencies:
     - python==3.5.2
-    - numpy==1.11.2
+    - numpy
     - scipy
     - path.py
     - python-dateutil
-    - joblib==0.9.4
+    - joblib
     - mako
     - ipywidgets
     - numba
@@ -50,9 +50,9 @@ dependencies:
         - git+https://github.com/neocxi/prettytensor.git
         - jupyter
         - progressbar2
-        - chainer==1.18.0
+        - chainer=1.18.0
         - tensorflow-gpu; 'linux' in sys_platform
-        - tensorflow; sys_platform == 'darwin'
+        - tensorflow; sys_platform = 'darwin'
         - dominate
         - scikit-image
         - git+https://github.com/tflearn/tflearn.git

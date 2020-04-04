@@ -1,7 +1,7 @@
 import numpy as np
 import scipy
 import scipy.signal
-import theano.tensor.nnet
+#import theano.tensor.nnet
 import theano.tensor as TT
 import theano.tensor.extra_ops
 from collections import OrderedDict
@@ -35,6 +35,7 @@ def softmax(x):
 
 
 def softmax_sym(x):
+    #return softmax(x)
     return theano.tensor.nnet.softmax(x)
 
 
